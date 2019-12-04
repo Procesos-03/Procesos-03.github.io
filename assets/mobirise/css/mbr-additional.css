@@ -3024,7 +3024,7 @@ background-color: @bgColor;
 .cid-rJHd6lX3j2 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/jumbotron1.jpg");
+  background-image: url("../../../assets/images/jumbotron2.jpg");
 }
 .cid-rJHmfpx2W6 {
   padding-top: 0px;
@@ -3436,4 +3436,92 @@ background-color: @bgColor;
   height: 25px;
   border-radius: 50%;
   content: '✓';
+}
+.cid-rJIoy2h3cW {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #55b4d4;
+}
+.cid-rJIoy2h3cW SPAN {
+  color: #232323;
+}
+.cid-rJIsiJgOr7 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #ffffff;
+}
+.cid-rJIsiJgOr7 .image-block {
+  margin: auto;
+}
+.cid-rJIsiJgOr7 figcaption {
+  position: relative;
+}
+.cid-rJIsiJgOr7 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rJIsiJgOr7 .image-block {
+    width: 100% !important;
+  }
+}
+.cid-rJIqF3iktP {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #232323;
+}
+.cid-rJIqF3iktP .counter-container {
+  color: #767676;
+}
+.cid-rJIqF3iktP .counter-container ol {
+  margin-bottom: 0;
+  counter-reset: myCounter;
+}
+.cid-rJIqF3iktP .counter-container ol li {
+  margin-bottom: 1rem;
+}
+.cid-rJIqF3iktP .counter-container ol li {
+  list-style: none;
+  padding-left: .5rem;
+}
+.cid-rJIqF3iktP .counter-container ol li:before {
+  position: absolute;
+  left: 0px;
+  margin-top: -10px;
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  transition: all .2s;
+  color: #000000;
+  background: #ffc900;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cid-rJIqF3iktP .mbr-text B {
+  color: #ffffff;
+}
+.cid-rJIsYHisVB {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #f9f9f9;
+}
+.cid-rJIsYHisVB h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rJIsYHisVB p {
+  color: #767676;
+  text-align: left;
+}
+.cid-rJIsYHisVB .card-box {
+  padding-top: 2rem;
+}
+.cid-rJIsYHisVB .card-wrapper {
+  height: 100%;
 }
