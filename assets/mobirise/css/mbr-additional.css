@@ -1201,6 +1201,58 @@ H1 {
   text-align: center;
 }
 }
+
+.cid-rJI8bhrp8v {
+@fullScreen: true;
+@paddingTop: 2;
+@paddingBottom: 6;
+@showTitle: true;
+@showSubTitle: false;
+@showText: true;
+@showButtons: true;
+@mediaSize: 60;
+@uname__12: "file:///C:/Users/Sarelly/AppData/Local/Mobirise.com/Mobirise/projects/project-2019-12-03_185704/assets/images/ingenieria_biomedica_img5-1-781x429.jpg";
+@uname__13: true;
+@uname__14: #5c698e;
+@bg-value: "file:///C:/Users/Sarelly/AppData/Local/Mobirise.com/Mobirise/projects/project-2019-12-03_185704/assets/images/ingenieria_biomedica_img5-1-781x429.jpg";
+@bg-type: "image";
+@bg-color-value: #5c698e;
+@bg-parallax: true;
+@overlay: true;
+@overlayColor: #232323;
+@overlayOpacity: 0.7;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 15px);
+  padding-bottom: (@paddingBottom * 15px);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+.mbr-figure {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  img {
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  .mbr-figure {
+    img {
+      width: 100% !important;
+    }
+  }
+}
+H1 {
+  text-align: center;
+}
+}
 .cid-rJDUG5oJT2 .modal-body .close {
   background: #1b1b1b;
 }
@@ -2942,7 +2994,7 @@ H1 {
 .cid-rJHd6lX3j2 {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/jumbotron11.jpg");
+  background-image: url("../../../assets/images/jumbotron12.jpg");
 }
 .cid-rJHmfpx2W6 {
   padding-top: 0px;
